@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/amadeu01/perfil.svg?branch=master)](https://travis-ci.org/amadeu01/perfil)
 # Perfil 
 
 A platform for profiling public figures in Brazilian politics, 
