@@ -1,0 +1,12 @@
+sudo: required
+
+language: ruby
+
+services:
+  - docker
+  
+before_install:
+  - cp env-template .env
+  
+script:
+  - docker-compose run --rm api pytest
