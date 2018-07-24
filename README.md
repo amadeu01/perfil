@@ -25,8 +25,10 @@ notebooks at [`localhost:8888`](http://localhost:8888).
 To run the API tests:
 
 ```sh
-$ docker-compose run --rm api sh
+$ docker-compose run --rm api pytest
 ```
+
+**Reminder**: In order to run tests you need to fully configure your instance as described in the [Settings](#settings) section.
 
 ## Local install
 
@@ -55,3 +57,5 @@ Run api tests:
 $ cd api
 $ pytest
 ```
+
+**Reminder**: In order to run tests you need to fully configure your instance as described in the [Settings](#settings) section.
